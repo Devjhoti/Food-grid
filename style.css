@@ -1,0 +1,49 @@
+body{
+    background-color: aliceblue;
+    margin: 0;
+    padding: 0;
+}
+img{
+    display: block;
+}
+.border{
+    border: 1px solid black;
+}
+.top-p{
+    font-family: 'Roboto Slab', serif;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 300;
+    width: 55%;
+    margin: auto;
+}
+.grid-container{
+    width: 80%;
+    /* height: 700px; */
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    column-gap: 20px;
+}
+.grid-item{
+    /* height: 500px; */
+}
+.grid-item-1{
+    
+}
+
+.grid-item-2 img{
+    width: 100%;
+}
+.grid-item-3 img{
+    width: 100%;
+}
+footer{
+    margin-top: 40px;
+    height: 200px;
+    background-color: #333333;
+    
+}
+i{
+    transform: rotate(-28deg);
+}
